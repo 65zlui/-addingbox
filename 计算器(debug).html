@@ -1,0 +1,39 @@
+<script>
+    var a = prompt("加法请按1 减法请按2 乘法请按3 除法请按4")
+    switch(a){
+        case"1":
+            var b = prompt("请输入第一个加数","");
+            var c = prompt("请输入第二个加数","");
+            b = Number(b);
+            c = Number(c);
+            var j= c+b;
+            alert("等于" + j);
+            break;
+        case"2":
+            var b = prompt("请输入被减数","");
+            var c = prompt("请输入减数","");
+            b = Number(b);
+            c = Number(c);
+            var j = b-c;
+            alert("等于" + j);
+            break;
+        case"3":
+            var h = prompt("请输入第一个乘数·","");
+            var i = prompt("请输入第二个乘数","");
+            h = Number(h);
+            i = Number(i);
+            var j = h*i;
+            alert("等于" + j);
+            break;
+        case"4":
+            var k = prompt("请输入被除数","");
+            var l = prompt("请输入商数","");
+            k = Number(k);
+            l = Number(l);
+            var j = k/l;
+            alert("等于" + j);
+            break;
+        default:
+            alert("你选择没有内容包括选项")
+    }
+</script>
